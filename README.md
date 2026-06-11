@@ -17,7 +17,7 @@ A simple student registration system built with **Java** and **MySQL (XAMPP)**. 
 - **Java (JDK 17+)**
 - **MySQL (XAMPP)**
 - **JDBC**
-- **NetBeans / IntelliJ IDEA / Eclipse**
+- **NetBeans**
 
 ---
 
@@ -34,7 +34,7 @@ To run this project, you need to set up the database using **phpMyAdmin**:
 7. Update your Java project’s database connection settings (JDBC or `application.properties`) to match:
    ```properties
     String URL = "Jdbc:mysql://localhost:3306/student";
-   String USER = "root";
+    String USER = "root";
     String PASS = "";
    
 ---
